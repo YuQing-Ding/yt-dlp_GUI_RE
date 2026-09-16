@@ -1,0 +1,33 @@
+#include <windows.h>
+#include "../src/resource.h"
+
+IDI_APPICON ICON "app.ico"
+
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "app.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION     1,3,0,0
+ PRODUCTVERSION  1,3,0,0
+ FILEFLAGSMASK   VS_FFI_FILEFLAGSMASK
+ FILEFLAGS       0
+ FILEOS          VOS_NT_WINDOWS32
+ FILETYPE        VFT_APP
+ FILESUBTYPE     VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"          // 中文(简体) / Unicode
+        BEGIN
+            VALUE "FileDescription", "yt-dlp GUI RE - a native GUI for yt-dlp"
+            VALUE "FileVersion",     "1.3.0.0"
+            VALUE "InternalName",    "YtDlpGUI"
+            VALUE "OriginalFilename","yt-dlp_GUI_RE.exe"
+            VALUE "ProductName",     "yt-dlp GUI RE"
+            VALUE "ProductVersion",  "1.3.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
