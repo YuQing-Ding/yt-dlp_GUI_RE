@@ -23,7 +23,7 @@ and **Deno is strongly recommended**.
 
 Settings are saved to `settings.ini` next to the executable and restored on the next launch.
 
-### What's in the package
+### What's in the package (Release)
 
 ```
 yt-dlp_GUI_RE.exe    the program
