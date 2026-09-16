@@ -29,7 +29,6 @@ Settings are saved to `settings.ini` next to the executable and restored on the 
 yt-dlp_GUI_RE.exe    the program
 yt-dlp.exe           bundled, official x64 single-file build
 README.md            this file
-使用说明.md           Chinese documentation
 source/              full C++ source and build script
 ```
 
